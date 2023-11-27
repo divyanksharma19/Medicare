@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.Details_of_Doctors"
+    android:background="@drawable/ic_background"
+    android:orientation="horizontal">
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar_Doctor_Details"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        tools:ignore="MissingConstraints">
+
+        <TextView
+            android:id="@+id/tv_title_DetailsDoctor"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:text="@string/login_in"
+            android:textColor="@color/primary_text_color"
+            android:textSize="@dimen/toolbar_title_text_size"
+            android:textStyle="bold" />
+
+    </androidx.appcompat.widget.Toolbar>
+
+    <!-- Category TextView -->
+    <TextView
+        android:id="@+id/textViewDoctorList"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Doctors"
+        android:layout_marginTop="16dp"
+        android:textSize="19sp"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar_Doctor_Details"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginStart="12dp"
+        />
+    <androidx.cardview.widget.CardView
+        android:id="@+id/Details_cardView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:layout_marginEnd="12dp"
+        app:layout_constraintTop_toBottomOf="@+id/textViewDoctorList"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:cardCornerRadius="8dp"
+        app:cardElevation="4dp">
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/DoctorListRecyclerView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+            />
+
+
+
+
+        <!-- Add your CardView content here -->
+        <!-- For example, you can add a TextView or other views inside the CardView -->
+
+    </androidx.cardview.widget.CardView>
+</androidx.constraintlayout.widget.ConstraintLayout>

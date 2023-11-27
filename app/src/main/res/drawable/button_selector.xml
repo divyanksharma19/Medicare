@@ -1,0 +1,21 @@
+<!-- button_selector.xml -->
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Pressed state -->
+    <item android:state_pressed="true">
+        <shape
+            android:shape="rectangle">
+            <!-- Change the background color or drawable for pressed state -->
+            <solid android:color="@color/colorAccent" />
+            <!-- You can also define other properties like corner radius, stroke, etc. -->
+        </shape>
+    </item>
+
+    <!-- Default (normal) state -->
+    <item>
+        <!-- Change the background color or drawable for normal state -->
+        <shape
+            android:shape="rectangle">
+            <solid android:color="@drawable/default_option_border_changed" />
+        </shape>
+    </item>
+</selector>
