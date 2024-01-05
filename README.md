@@ -1,5 +1,5 @@
 
-##Login and SignUp
+## Login and SignUp
 <p align="center">
   <img width="400" height="400" src="https://github.com/divyanksharma19/MedicareDoctor/assets/123388291/bce6ee84-fc72-468f-a36a-5d12618ff67f">
   <img width="400" height="400" src="https://github.com/divyanksharma19/MedicareDoctor/assets/123388291/24d2edcc-dd2b-4890-b0c5-7cf40d277083">
