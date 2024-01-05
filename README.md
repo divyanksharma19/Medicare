@@ -1,3 +1,19 @@
+# Medicare
+Our main objective is to enable users to easily schedule appointments with their preferred doctors on their chosen date and time. This involves developing a user-friendly interface for efficient and personalized appointment booking, granting users greater control and convenience in managing their healthcare appointments.
+
+A Patient can
+•	See categorized doctors according to their speciality.
+•	View doctors list in particular category.
+•	View details of doctor including location, education and experience.
+•	See appointment slots according to date and time.
+•	Book appointment and cancel it.
+•	See health news.
+•	Use BMI calculator and get personalized health tips.
+•	Use chatbot to get quick appointment details and medical tips. 
+A doctor can
+•	Manage doctor profile and details.
+•	See upcoming appointments and history.
+•	Set slots according to date and time.	
 
 ## Login and SignUp
 <p align="center">
