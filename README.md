@@ -6,7 +6,7 @@
   <img width="300" height="400" src="https://github.com/divyanksharma19/MedicareDoctor/assets/123388291/d83f3258-019f-4af2-adee-bed2103d4f7a">
 </p>
 
-## Doctor's Profile
+## Doctor's Profile and My Appointments
 
 <p align="center">
   <img width="300" height="450" src="https://github.com/divyanksharma19/MedicareDoctor/assets/123388291/d60bccb3-45fb-4e1d-8545-4ea89023602c">
