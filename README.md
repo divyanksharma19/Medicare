@@ -1,5 +1,5 @@
 # Medicare
-Our main objective is to enable users to easily schedule appointments with their preferred doctors on their chosen date and time. This involves developing a user-friendly interface for efficient and personalized appointment booking, granting users greater control and convenience in managing their healthcare appointments.
+Main objective of the app is to enable users to easily schedule appointments with their preferred doctors on their chosen date and time. This involves developing a user-friendly interface for efficient and personalized appointment booking, granting users greater control and convenience in managing their healthcare appointments.
 
 A Patient can
 •	See categorized doctors according to their speciality.
