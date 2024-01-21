@@ -15,6 +15,12 @@ A doctor can
 •	See upcoming appointments and history.
 •	Set slots according to date and time.	
 
+Medicare doctor app-
+(https://github.com/divyanksharma19/MedicareDoctor)  for viewing, adding, and managing appointments, categorizing them as successful or expired.
+Doctors also have the ability to edit time slots
+
+Tech stack: Kotlin, Firebase, Glide, Twilio API, News API, Retrofit, Volley
+
 ## Login and SignUp
 <p align="center">
   <img width="300" height="400" src="https://github.com/divyanksharma19/MedicareDoctor/assets/123388291/bce6ee84-fc72-468f-a36a-5d12618ff67f">
